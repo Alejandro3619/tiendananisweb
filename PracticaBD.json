@@ -1,0 +1,16 @@
+db.Usuario.insertOne({"Nombre":"Alejo", "Apellido":"Galviz", "Password":123, "Usuario":"Usuario1"})db.Usuario.insertOne({"Nombre":"Jhon", "Apellido":"Galviz", "Password":123, "Usuario":"Usuario1"})
+db.Usuario.insertOne({"Nombre":"Jhon", "Apellido":"Galviz", "Password":123, "Usuario":"Usuario1", "id":100, "Profesion":"Programador"})
+
+db.Usuario.insertMAny({"Nombre":"Daniel", "Apellido":"Corzo", "Password":123, "Usuario":"Usuario11"},{"Nombre":"Mateo", "Apellido":"Mateus", "Password":123, "Usuario":"Usuario12"})
+
+db.Usuario.find()
+
+db.Usuario.find({"id":100})
+
+db.Usuario.find({"id":$exist:true})
+
+db.Usuario.find({},{"Nombre":1})
+db.Usuario.find({},{"Nombre":1,"id":0})
+db.Usuario.find({},{"Nombre":1,"id":0,"Usuario":1})
+
+db.Usuario.distinct("Apellido")
