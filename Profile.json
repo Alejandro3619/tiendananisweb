@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "6376cab6970e86f6e8bf53c6"
+  },
+  "nombre": "Mateo",
+  "apellido": "Galviz",
+  "usuario": "Usuario2",
+  "password": "1234",
+  "profesion": "Chef"
+},{
+  "_id": {
+    "$oid": "6376cfc15ccba41b5148a8d6"
+  },
+  "nombre": "Alejo",
+  "apellido": "Galviz",
+  "usuario": "Usuario1",
+  "password": "123",
+  "profesion": "Programador",
+  "estado": 1
+},{
+  "_id": {
+    "$oid": "6377ade44ac1d79da16737b1"
+  },
+  "nombre": "Mateo",
+  "apellido": "Galviz",
+  "usuario": "Usuario3",
+  "password": "123",
+  "profesion": "Analista"
+},{
+  "_id": {
+    "$oid": "6377b030a697de44f64702e0"
+  },
+  "nombre": "Annie",
+  "apellido": "Galviz",
+  "usuario": "Usuario4",
+  "password": "1230",
+  "profesion": "Jefe",
+  "estado": 2
+}]
