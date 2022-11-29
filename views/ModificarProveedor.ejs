@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/styleProveedor.css">
+        <link rel="stylesheet" type="text/css" href="css/style_Home.css">
+        <title>Proveedor</title>
+    </head>
+    
+    <nav class="navbar navbar-default navbar-mobile bootsnav on">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="/Home"><img src="img/Home.png" width="24" height="24">Home  </a></li><br>
+            <li><a href="/Cliente"><img src="img/Cliente.png" width="24" height="24">Clientes  </a></li><br>
+            <li><a href="/Producto"><img src="img/Producto.png" width="24" height="24">Productos  </a></li><br>
+            <li><a href="/Proveedor"><img src="img/Proveedor.png" width="24" height="24">Proveedores  </a></li><br>
+            <li><a href="/Factura"><img src="img/Factura.png" width="24" height="24">Factura  </a></li><br>
+            <li><a href="/Contacto"><img src="img/Contacto.png" width="24" height="24">Contacto  </a></li><br>
+            <li><a href="/Login"><img src="img/Salir.png" width="24" height="24">Salir  </a></li>
+        </ul>    
+    </nav>
+            
+
+    <header id="cab">
+        <div class="maxw">
+            <h1>Proveedor</h1>
+        </div>
+    </header>
+    <div class="maxw content">
+        <div class="cuerpo">
+            <p>
+                <div class="formulario">
+                    <div class="slide">
+                        <div>
+                            <h3>Añadir Proveedor</h3>
+                            <div class="campos">
+                                <aside>
+                                    <svg class="imgperfil">
+                                        <img src="img/Proveedor.png" width="80%" height="80%">
+                                    </svg>
+                                </aside>
+                                <form>
+                                    <div>
+                                        <label>Nombre Proveedor</label>
+                                        <input  id="NombreProveedor" required>
+                                    </div>
+                                    <div>
+                                        <label>Telefono</label>
+                                        <input id="Telefono" required>
+                                    </div>
+                                    <div>
+                                        <label>Empresa</label>
+                                        <input id="Empresa" required>
+                                    </div>
+                                    <div>
+                                        <label>Direccion</label>
+                                        <input id="Direccion" required>
+                                    </div>
+                                    <br>
+                                    <div class="clear_r">
+                                        <button type="submit" class="btn btn-primary btn-block btn-large" onclick="Actualizar()">Modificar</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </p>
+        </div>
+    </div>
+</html>
+
+<script type="text/javascript" src="js/ActualizarProveedor.js"></script>

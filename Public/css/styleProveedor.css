@@ -1,0 +1,191 @@
+html,body{
+  background-color: rgb(247, 204, 225);
+  margin: 0;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.formulario .campos {
+  padding-top: 1em;
+  display: flex;
+  align-items: flex-start;
+}
+.slide .item {
+  width: 100%;
+}
+.formulario .slide {
+  display: flex;
+  width: 300%;
+  position: relative;
+  left: 0;
+  transition: 0.5s ease;
+}
+.formulario h3 {
+  display: block;
+  border-bottom: 1.5px solid #2face0;
+  width: 70%;
+  color: #1394c9;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.cuerpo {
+  padding: 1em 1.5em;
+  width: 80%;
+  background: white;
+  box-shadow: 0 10px 25px #00000003;
+}
+.cuerpo p {
+  display: flex;
+}
+.maxw {
+  max-width: 65em;
+  margin: 0 auto;
+  padding: 0 1em;
+  display: flex;
+}
+header#cab {
+  background: #74afe0;
+}
+h1 {
+  color: white;
+}
+header#cab > div {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+input {
+  border-radius: 3px;
+  border: 1px solid #ebedf2;
+  background: #f7f9fd;
+  padding: 0.7em 1.1em;
+  margin-bottom: 1em;
+}
+aside {
+  width: auto;
+}
+aside nav a {
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    color: #792d43;
+    font-weight: 800;
+    fill: #b4c176;
+    align-items: center;
+  }
+
+  aside nav a:hover,
+  aside nav a:focus {
+    background: white;
+    fill: #1394c9;
+    color: #484848;
+  }
+  aside nav a.activo {
+    background: white;
+    fill: #1394c9;
+    color: #484848;
+    box-shadow: 0.3em 0 inset #1394c9;
+  }
+  aside nav a svg {
+    margin-right: 0.8em;
+  }
+  
+  form {
+    width: 100%;
+  }
+  form label,
+  form .label {
+    display: block;
+    padding: 0.2em 0;
+    font-size: 0.9em;
+  }
+  form .doble {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+  }
+  form .doble .campo:first-child {
+    margin-right: 2em;
+  }
+  form span {
+    font-size: 0.9em;
+  }
+.formy {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.6em;
+  }
+  .formy div {
+    display: flex;
+    flex-flow: column;
+  }
+  .formy div:first-child {
+    text-align: right;
+    padding-right: 1em;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .formy div:first-child * {
+    font-weight: bold;
+    color: #58565f;
+  }
+  .formy div * {
+    height: 3em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  span.aclar {
+    font-style: italic;
+    font-size: 0.8em;
+    color: #6f6d74;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.btn { display: inline-block; *display: inline; *zoom: 1; padding: 4px 10px 4px; margin-bottom: 0; font-size: 13px; line-height: 18px; color: #333333; text-align: center;text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75); vertical-align: middle; background-color: #f5f5f5; background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6); background-image: -ms-linear-gradient(top, #ffffff, #e6e6e6); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6)); background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6); background-image: -o-linear-gradient(top, #ffffff, #e6e6e6); background-image: linear-gradient(top, #ffffff, #e6e6e6); background-repeat: repeat-x; filter: progid:dximagetransform.microsoft.gradient(startColorstr=#ffffff, endColorstr=#e6e6e6, GradientType=0); border-color: #e6e6e6 #e6e6e6 #e6e6e6; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); border: 1px solid #e6e6e6; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); cursor: pointer; *margin-left: .3em; }
+.btn:hover, .btn:active, .btn.active, .btn.disabled, .btn[disabled] { background-color: #e6e6e6; }
+.btn-large { padding: 9px 14px; font-size: 15px; line-height: normal; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+.btn:hover { color: #333333; text-decoration: none; background-color: #e6e6e6; background-position: 0 -15px; -webkit-transition: background-position 0.1s linear; -moz-transition: background-position 0.1s linear; -ms-transition: background-position 0.1s linear; -o-transition: background-position 0.1s linear; transition: background-position 0.1s linear; }
+.btn-primary, .btn-primary:hover { text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); color: #ffffff; }
+.btn-primary.active { color: rgba(255, 255, 255, 0.75); }
+.btn-primary { background-color: #eb8e2c; background-image: -moz-linear-gradient(top, #6eb6de, #eb8e2c); background-image: -ms-linear-gradient(top, #6eb6de, #eb8e2c); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#6eb6de), to(#eb8e2c)); background-image: -webkit-linear-gradient(top, #6eb6de, #eb8e2c); background-image: -o-linear-gradient(top, #6eb6de, #eb8e2c); background-image: linear-gradient(top, #6eb6de, #eb8e2c); background-repeat: repeat-x; filter: progid:dximagetransform.microsoft.gradient(startColorstr=#6eb6de, endColorstr=#eb8e2c, GradientType=0);  border: 1px solid #3762bc; text-shadow: 1px 1px 1px rgba(0,0,0,0.4); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.5); }
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] { filter: none; background-color: #eb8e2c; }
+.btn-block { width: 35%; display:block; }
+
+
+
+table{ 
+  border-spacing: 1; 
+  border-collapse: collapse; 
+  background:rgb(243, 242, 221);
+  border-radius:6px;
+  overflow:hidden;
+  max-width:800px; 
+  width:100%;
+  margin:0 auto;
+  position:relative;
+}  
+*{ position:relative; }
+  
+td,th{ 
+  padding-left:8px;
+  text-align:left;}
+
+thead tr        { 
+  height:60px;
+  background:#FFED86;
+  font-size:16px;
+}
+  
+tbody tr{ 
+  height:48px; 
+  border-bottom:1px solid #838580 ;  
+}
+
+
+body{ 
+  font:400 14px 'Calibri','Arial';
+  padding:20px;
+}
+blockquote {
+  color:white;
+  text-align:center;
+}

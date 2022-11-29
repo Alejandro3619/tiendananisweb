@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/funtion_Cliente.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/styleCliente.css">
+        <link rel="stylesheet" type="text/css" href="css/style_Home.css">
+        <title>Proveedor</title>
+    </head>
+    
+    <nav class="navbar navbar-default navbar-mobile bootsnav on">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="/Home"><img src="img/Home.png" width="24" height="24">Home  </a></li><br>
+            <li><a href="/Cliente"><img src="img/Cliente.png" width="24" height="24">Clientes  </a></li><br>
+            <li><a href="/Producto"><img src="img/Producto.png" width="24" height="24">Productos  </a></li><br>
+            <li><a href="/Proveedor"><img src="img/Proveedor.png" width="24" height="24">Proveedores  </a></li><br>
+            <li><a href="/Factura"><img src="img/Factura.png" width="24" height="24">Factura  </a></li><br>
+            <li><a href="/Contacto"><img src="img/Contacto.png" width="24" height="24">Contacto  </a></li><br>
+            <li><a href="/Login"><img src="img/Salir.png" width="24" height="24">Salir  </a></li>
+        </ul>    
+    </nav>
+
+
+        <div class="contact1">
+            <div class="container-contact1">
+                <div class="contact1-pic js-tilt" data-tilt>
+                    <img src="img/Cliente.png" width="80%" height="80%">
+                </div>
+    
+                <form class="contact1-form validate-form">
+                    <span class="contact1-form-title">
+                        Cliente
+                    </span>
+                    <div class="wrap-input1 validate-input">
+                        <label>idProducto</label>
+                        <input class="input1" id="idProducto">
+                        <span class="shadow-input1"></span>
+                    </div>
+                    <div class="wrap-input1 validate-input" >
+                        <label>idProveedor</label>
+                        <input class="input1" id="">
+                        <span class="shadow-input1"></span>
+                    </div>
+                    <div class="wrap-input1 validate-input">
+                        <label>NombreCliente</label>
+                        <input class="input1" id="">
+                        <span class="shadow-input1"></span>
+                    </div>
+                    <div class="wrap-input1 validate-input">
+                        <label>Documento</label>
+                        <input class="input1" id="">
+                        <span class="shadow-input1"></span>
+                    </div>
+                    <div class="wrap-input1 validate-input">
+                        <label>Telefono</label>
+                        <input class="input1" id="">
+                        <span class="shadow-input1"></span>
+                    </div>
+                    <div class="container-contact1-form-btn">
+                        <button class="contact1-form-btn">
+                            <span>
+                                Insertar
+                                <i class="fa fa-long-arrow-right" aria-hidden="true" onclick="Insertar()"></i>
+                            </span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <table class="table table-dark table-hover">
+            <thead>
+                <th>Id</th>
+                <th>idProducto</th>
+                <th>idProveedor</th>
+                <th>NombreCliente</th>
+                <th>Documento</th>
+                <th>Telefono</th>
+                <th>Accion</th>
+            </thead>
+            <tbody id="games">
+
+            </tbody>
+        </table>
+
+
+</html>
