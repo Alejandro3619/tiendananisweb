@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/funtion_Producto.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/styleProducto.css">
+        <link rel="stylesheet" type="text/css" href="css/style_Home.css">
+        <title>Proveedor</title>
+    </head>
+    
+    <nav class="navbar navbar-default navbar-mobile bootsnav on">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="/Home"><img src="img/Home.png" width="24" height="24">Home  </a></li><br>
+            <li><a href="/Cliente"><img src="img/Cliente.png" width="24" height="24">Clientes  </a></li><br>
+            <li><a href="/Producto"><img src="img/Producto.png" width="24" height="24">Productos  </a></li><br>
+            <li><a href="/Proveedor"><img src="img/Proveedor.png" width="24" height="24">Proveedores  </a></li><br>
+            <li><a href="/Factura"><img src="img/Factura.png" width="24" height="24">Factura  </a></li><br>
+            <li><a href="/Contacto"><img src="img/Contacto.png" width="24" height="24">Contacto  </a></li><br>
+            <li><a href="/Login"><img src="img/Salir.png" width="24" height="24">Salir  </a></li>
+        </ul>    
+    </nav>
+            
+
+    <body>
+        <section class="form_wrap">
+            <section class="cantact_info">
+                <section class="info_title">
+                    <span class="fa fa-user-circle"></span>
+                    <h2>PRODUCTO</h2>
+                </section>
+                <section class="info_items">
+                    <img src="img/Producto.png" width="80%" height="80%">
+                </section>
+            </section>
+            <form action="" class="form_contact">
+                <h2>AÑADIR PRODUCTO</h2>
+                <div class="user_info">
+                    <label>NombreProducto</label>
+                    <input id="NombreProducto">
+                    <label>Precio</label>
+                    <input id="Precio">
+                    <label>Cantidad</label>
+                    <input id="Cantidad">
+                    <label>Referencia</label>
+                    <textarea id="Referencia"></textarea>
+                    <button type="submit" class="btn btn-primary btn-block btn-large" onclick="Insertar()">Insertar</button>
+                </div>
+            </form>
+        </section>
+    </body>
+
+            <table class="table table-dark table-hover">
+                <thead>
+                    <th>Id</th>
+                    <th>NombreProducto</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                    <th>Referencia</th>
+                    <th>Accion</th>
+                </thead>
+                <tbody id="games">
+
+                </tbody>
+            </table>
+</html>
